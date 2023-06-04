@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3609090239972069067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3609090239972069069}
+  - component: {fileID: 3609090239972069066}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3609090239972069069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609090239972069067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47.346584, y: 0.10716755, z: -38.714188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3609090239972069066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609090239972069067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f9dca33c1884a4e9cce46120c32814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx:
+  - name: ShootingSound
+    clip: {fileID: 8300000, guid: 2203773368e4340d98c114f55c2dd7fd, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ShotgunShot
+    clip: {fileID: 8300000, guid: 2203773368e4340d98c114f55c2dd7fd, type: 3}
+    volume: 0.15
+    pitch: 0.59
+    source: {fileID: 0}
+    loop: 0
+  - name: ReloadSound
+    clip: {fileID: 8300000, guid: eb5685b26a6494994af389a3293064e8, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ShotgunReloadSound
+    clip: {fileID: 8300000, guid: 9158afb6966d445db9caf1dccf7acbcc, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GrenadeExplosion
+    clip: {fileID: 8300000, guid: 8b3f676fe7b41044495a2964396b8ba3, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ThrowGrenade
+    clip: {fileID: 8300000, guid: ada4319dc7b507547bfefbeda133745b, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GrenadeImpact
+    clip: {fileID: 8300000, guid: 419336aa8912ae0468e104596863a0a1, type: 3}
+    volume: 0.352
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: HitMarker
+    clip: {fileID: 8300000, guid: b4fcfcb19af7f4457b220e12d3489c5a, type: 3}
+    volume: 0.652
+    pitch: 0.59
+    source: {fileID: 0}
+    loop: 0
+  music:
+  - name: IntroMusic
+    clip: {fileID: 8300000, guid: 18867f839e91aa942ac7eb7c84d80a94, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  swordSoundsSFX:
+  - name: SwordSwoosh
+    clip: {fileID: 8300000, guid: 4d982643ebbc0e44aad06026927895c2, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: SwordSwoosh2
+    clip: {fileID: 8300000, guid: 4afdc7cbd1a73f146acc44b5b092846f, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0

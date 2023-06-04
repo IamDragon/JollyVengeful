@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46bd26768f9985f43ab1c5452191bb5d, type: 3}
+  m_Name: Tavern_Conv1
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: ab8380ded2a35b847bca207c70434876, type: 2}
+    dialogue: 'Well... Well... Well. Look who the cat dragged in. '
+  - speaker: {fileID: 11400000, guid: ab8380ded2a35b847bca207c70434876, type: 2}
+    dialogue: Old man Roger sailer. This relatively peaceful harbor was, just the
+      other night, beset by them crewmates of yours...
+  - speaker: {fileID: 11400000, guid: 70b04b5ad82a3624e9f3fba824397fdd, type: 2}
+    dialogue: 'Old crewmates. Captain''s dead and the soon to be is flying his flag.
+      Broken their leash and like rabbid dogs they be biting at anything in their
+      way. '
+  - speaker: {fileID: 11400000, guid: ab8380ded2a35b847bca207c70434876, type: 2}
+    dialogue: 'Poor old captain Morghan. Too soon to be parting these tides for the
+      locker. '
+  - speaker: {fileID: 11400000, guid: ab8380ded2a35b847bca207c70434876, type: 2}
+    dialogue: 'These ruffians have become poor business. Would you strike an accord,
+      if a temporary, for the handling of these mutineers of yours? '
+  - speaker: {fileID: 11400000, guid: ab8380ded2a35b847bca207c70434876, type: 2}
+    dialogue: I can provide a few things in return, like a room for rest, a shop
+      for armament and information aquired of drunken sailers and bilgewater scum.
+  - speaker: {fileID: 11400000, guid: 70b04b5ad82a3624e9f3fba824397fdd, type: 2}
+    dialogue: An accord it is. My old man is being rooked by the seaweed and if i
+      am to do one thing in this lifetime. It's to give him a smile on his way to
+      the locker.
